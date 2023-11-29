@@ -2604,6 +2604,7 @@ let anu = await fetchJson(`https://xeonapi.onrender.com/api/dowloader/fbdown?url
 XeonBotInc.sendMessage(m.chat, { video: { url: anu.result.HD }, caption: 'Here you go!.'}, {quoted: m})
 }
 break
+case 'tt':		
 case 'tiktok':{ 
 if (!text) return replygcxeon( `Example : ${prefix + command} link`)
 if (!q.includes('tiktok')) return replygcxeon(`Link Invalid!!`)
@@ -2613,6 +2614,7 @@ XeonBotInc.sendMessage(m.chat, { caption: `Here you go!`, video: { url: data.wat
 })
 }
 break
+case 'ttaudio':		
 case 'tiktokaudio':{
 if (!text) return replygcxeon( `Example : ${prefix + command} link`)
 if (!q.includes('tiktok')) return replygcxeon(`Link Invalid!!`)
