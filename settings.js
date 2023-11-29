@@ -10,8 +10,8 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['6283829871673'] //ur owner number
-global.ownernomer = "6283829871673" //ur owner number2
+global.owner = ['6283103795763'] //ur owner number
+global.ownernomer = "6283841950875" //ur owner number2
 global.ownername = "No Name" //ur owner name
 global.ytname = "" //ur yt chanel name
 global.socialm = "GitHub: " //ur github or insta name
@@ -29,7 +29,7 @@ global.themeemoji = '🥀'
 global.wm = "No Name"
 global.botscript = 'No Name' //script link
 global.packname = "Sticker By"
-global.author = "Fuirly\n\n\nA whatsapp bot Created by\nFallZx Development\n\n\n\n\n\n\n\n       --------______-------\n\n\n\n\n\n\n\nContact No. : +6285813708397"
+global.author = "No Name"
 global.creator = "6283103795763@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.hituet = 0
