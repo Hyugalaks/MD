@@ -19,9 +19,9 @@ global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = "No Name Botz - MD"
-global.ownernumber = '6283829871673'
+global.ownernumber = '6283103795763'
 global.ownername = 'No Name'
-global.ownerNumber = ["6283829871673@s.whatsapp.net"]
+global.ownerNumber = ["6283103795763@s.whatsapp.net"]
 global.ownerweb = ""
 global.websitex = ""
 global.wagc = ""
