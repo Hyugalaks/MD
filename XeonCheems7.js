@@ -2573,7 +2573,7 @@ if (!m.isGroup) return replygcxeon(mess.group)
 if (!isAdmins && !XeonTheCreator) return replygcxeon(mess.admin)
 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
 me = m.sender
-let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«╝ 
+let teks = `╚»˙·٠${themeemoji}● Tag All ●${themeemoji}٠·˙«╝ 
  
  😶 *Tagger :*  @${me.split('@')[0]}
  🌿 *Message : ${q ? q : 'no message'}*\n\n`
