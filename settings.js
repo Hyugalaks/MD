@@ -10,27 +10,27 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['6283103795763'] //ur owner number
-global.ownernomer = "6283841950875" //ur owner number2
-global.ownername = "-" //ur owner name
-global.ytname = "" //ur yt chanel name
+global.owner = ['6283103795763,6283841950875'] //ur owner number
+global.ownernomer = "6283103795763","6283841950875" //ur owner number2
+global.ownername = "No Name" //ur owner name
+global.ytname = "-" //ur yt chanel name
 global.socialm = "GitHub: " //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = "No Name Botz - MD"
-global.ownernumber = '6283103795763'
-global.ownername = '-'
-global.ownerNumber = ["6283103795763@s.whatsapp.net"]
-global.ownerweb = ""
-global.websitex = ""
+global.ownernumber = ['6283103795763','6283841950875']
+global.ownername = 'No Name'
+global.ownerNumber = ["6283103795763@s.whatsapp.net","6283103795763@s.whatsapp.net"]
+global.ownerweb = "-"
+global.websitex = "-"
 global.wagc = "https://chat.whatsapp.com/FbzyA7vcFLnCeEl2RzHroB"
-global.themeemoji = '🥀'
+global.themeemoji = '✅'
 global.wm = "No Name"
-global.botscript = 'No Name' //script link
+global.botscript = '-' //script link
 global.packname = "Sticker By"
 global.author = "No Name"
-global.creator = "6283103795763@s.whatsapp.net"
+global.creator = "6283103795763@s.whatsapp.net","6283103795763@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.hituet = 0
 
