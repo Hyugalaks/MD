@@ -3207,7 +3207,9 @@ replygcxeon(`Photo/Video?`)
 }
 break
 case 'sticker': 
-case 's': {
+case 's': 
+case 'hd':
+case 'remini':{
 if (!quoted) return replygcxeon(`Send/Reply Images/Videos/Gifs With Captions ${prefix+command}\nVideo Duration 1-9 Seconds`)
 if (/image/.test(mime)) {
 let media = await quoted.download()
