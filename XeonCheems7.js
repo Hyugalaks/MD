@@ -1636,7 +1636,7 @@ break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': case 'donasi': {
 me = m.sender
 teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nSc: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇
-https://ibb.co/3zyH8WY`
+https://i.ibb.co/16fxpKJ/IMG-20231203-WA0120-2.jpg`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
