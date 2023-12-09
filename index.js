@@ -35,8 +35,8 @@ function title() {
       console.clear()
       console.log(chalk.yellow(`\n\n               ${chalk.bold.yellow(`[ ${botname} ]`)}\n\n`))
       console.log(color(`< ================================================== >`, 'cyan'))
-	console.log(color(`\n${themeemoji} YT CHANNEL: FallXD425`,'magenta'))
-console.log(color(`${themeemoji} GITHUB: FallEzz `,'magenta'))
+	console.log(color(`\n${themeemoji} YT CHANNEL: `,'magenta'))
+console.log(color(`${themeemoji} GITHUB:  `,'magenta'))
 console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
 console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
 }
@@ -150,16 +150,17 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「  @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+                xeonbody = `┌───────────────►
+│ 𝗛𝗶 👋 
+│  @${xeonName.split("@")[0]}  
+│
+│⌬ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+│⌬ ${metadata.subject}
+│⌬ 𝗠𝗲𝗺𝗯𝗲𝗿 : 
+│⌬ ${xmembers}th
+│⌬ 𝗝𝗼𝗶𝗻𝗲𝗱 : 
+│⌬ ${xtime} ${xdate}
+└───────────────►`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
