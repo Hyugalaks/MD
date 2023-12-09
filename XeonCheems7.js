@@ -1096,35 +1096,51 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed();
             let latensie = speed() - timestampe
-            xeonezy = `┌─❖
+            xeonezy = `┌───────────────►
 │ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
-│└────────────┈ ⳹
+│ play${pushname} 
+│ ${xeonytimewisher} 😄
 │
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│【*𝗕𝗢𝗧 𝗜𝗡𝗙𝗢*】 
 │
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
+│𝗦𝗽𝗲𝗲𝗱 : 
+│${latensie.toFixed(4)} miliseconds
+│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :
+│${runtime(process.uptime())}
+│𝗕𝗼𝘁 : 
+│${global.botname}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼 : 
+│${ownernumber}
+│𝗣𝗿𝗲𝗳𝗶𝘅 : 
+│NO-PREFIX 
+│𝗠𝗼𝗱𝗲 : 
+│${XeonBotInc.public ? 'Public' : `Self`}
+│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 :
+│${os.hostname()}
+│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 
+│${os.platform()}
 │
-└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗧𝗶𝗺𝗲 : ${xtime}
-│𝗗𝗮𝘁𝗲 : ${xdate}
-└┬────────────┈ ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
-┌└─────────────┈ ⳹
+│【*𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢*】
+│
+│𝗡𝗮𝗺𝗲 : 
+│${pushname}
+│𝗡𝘂𝗺𝗯𝗲𝗿 : 
+│@${me.split('@')[0]}
+│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : 
+│${isPrem ? '✅' : `❌`}
+│
+│【*𝗧𝗜𝗠𝗘 𝗜𝗡𝗙𝗢*】
+│
+│𝗧𝗶𝗺𝗲 :
+│${xtime}
+│𝗗𝗮𝘁𝗲 : 
+│${xdate}
+│
+│【*𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨*】
+│ 
 │⌬ .allmenu
+│⌬ .gptmenu
+│⌬ .reminimenu
 │⌬ .downloadmenu
 │⌬ .funmenu
 │⌬ .groupmenu
@@ -1138,7 +1154,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 │⌬ .randomphotomenu
 │⌬ .randomvideomenu
 │⌬ .stalkermenu
-└─────────────────┈ ⳹`
+└───────────────►`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
